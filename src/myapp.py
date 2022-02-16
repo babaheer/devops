@@ -8,7 +8,7 @@ def index():
 
 @app.route("/pingme")
 def pong():
-    return "Pong"
+    return "Ping Works!"
 
 if __name__ == "__main__":
     app.run(debug=True)
