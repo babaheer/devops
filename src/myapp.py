@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return "Hello, Estonia!"
 
-@app.route("/ping")
+@app.route("/pingme")
 def pong():
     return "Pong"
 
